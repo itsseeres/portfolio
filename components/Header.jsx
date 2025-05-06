@@ -1,7 +1,8 @@
 import Link from "next/link"
-import { Button } from "./ui/button.jsx"
+import { Button } from "./ui/button"
 
 import Nav from "./Nav"
+import MobileNav from "./MobileNav"
 const Header = () => {
     return (
     <header className="py-8 xl:py-12 text-white">
@@ -9,7 +10,7 @@ const Header = () => {
             {/* logo */}
             <Link href="/">
             <h1 className="text-4xl font-semibold">
-                Bipin Sainju Shrestha<span className="text-accent">.</span>
+                Shirish Shrestha<span className="text-accent">.</span>
                 </h1>
             </Link>
             {/* desktop nav & hire me button */}
@@ -20,7 +21,9 @@ const Header = () => {
             </Link>
             </div>
             {/*  mobile nav */}
-            <div className="xl:hidden">mobile nav</div>
+            <div className="xl:hidden">
+                <MobileNav/>
+            </div>
             </div>
     </header>
     )

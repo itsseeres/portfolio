@@ -33,7 +33,6 @@ module.exports = {
 		},
 		colors: {
 		  primary: '#1c1c22',
-      'primary-foreground': '#ffffff', // ✅ Make button text white
 		  accent: {
 			DEFAULT: '#00FF99',
 			hover: '#00e187',
