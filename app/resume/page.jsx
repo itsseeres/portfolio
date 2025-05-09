@@ -130,7 +130,51 @@ const Resume = () => {
             <TabsTrigger value="skills">Skills</TabsTrigger>
             <TabsTrigger value="about">About Me</TabsTrigger>
           </TabsList>
-          <div className="min-h-[70vh] w-full">content</div>
+          <div className="min-h-[70vh] w-full">
+            <TabsContent value="experience" className="w-full">
+              <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <h3 className="text-4xl font-bold">{experience.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{experience.description}</p>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                    {experience.items.map((item,index)=>{
+                      return (<li key={index} className="bg-[#232329] h-184px py-6 py-10 rounded-xl flex flex-col justify-center items-center lg:items-center gap-1">
+                        <span className="text-cyan-400">{item.duration}</span>
+                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
+                        <div className="flex items-center gap-3">
+                          <span className="w-[6px] h-[6px] rounded-full bg-cyan-400"></span>
+                          <p className="text-white/60">{item.company}</p>
+                        </div>
+                      </li>);
+                    })}
+                  </ul>
+                </ScrollArea>
+              </div>
+            </TabsContent>
+            <TabsContent value="education" className="w-full">
+                            <div className="flex flex-col gap-[30px] text-center xl:text-left">
+                <h3 className="text-4xl font-bold">{education.title}</h3>
+                <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{education.description}</p>
+                <ScrollArea className="h-[400px]">
+                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                    {education.items.map((item,index)=>{
+                      return (<li key={index} className="bg-[#232329] h-184px py-6 py-10 rounded-xl flex flex-col justify-center items-center lg:items-center gap-1">
+                        <span className="text-cyan-400">{item.duration}</span>
+                        <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.degree}</h3>
+                        <div className="flex items-center gap-3">
+                          <span className="w-[6px] h-[6px] rounded-full bg-cyan-400"></span>
+                          <p className="text-white/60">{item.institution}</p>
+                        </div>
+                      </li>);
+                    })}
+                  </ul>
+                </ScrollArea>
+              </div>
+            </TabsContent>
+            <TabsContent value="skills" className="w-full"> 
+              skills</TabsContent>
+            <TabsContent value="about" className="w-full"> about</TabsContent>
+          </div>
         </Tabs>
       </div>
     </motion.div>
