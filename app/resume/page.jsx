@@ -12,7 +12,7 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "+977 azaz",
+      fieldValue: "+977 9818763764",
     },
     {
       fieldName: "Instagram",
