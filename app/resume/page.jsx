@@ -4,7 +4,7 @@ import { SiGoogleanalytics, SiMailchimp, SiSemrush, SiHubspot } from "react-icon
 
 const about = {
   title: 'About me',
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A assumenda dolore ea, nostrum rerum officia!",
+  description: "Self-motivated and passionate learner, eager to grow, take on challenges, and contribute to meaningful tech projects while continuously improving.",
   info: [
     {
       fieldName: "Name",
@@ -40,12 +40,17 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My experience',
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A assumenda dolore ea, nostrum rerum officia!",
+  description: "Experienced Digital Marketer with a background in Advanced Chip Level Training for desktops, laptops, and mobile devices, along with proficiency in Office package.",
   items: [
+      {
+      company: "ASIANPAINTS",
+      position: "TECHNICIAN AND MARKETING OFFICER",
+      duration: "2019-2020",
+    },
     {
-      company: "Azaz Solutions",
+      company: "Kumari Jobs",
       position: "Digital Marketer",
-      duration: "2020-2022",
+      duration: "2025-Present",
     }
   ]
 }
@@ -53,17 +58,27 @@ const experience = {
 const education = {
   icon: '/assets/resume/cap.svg',
   title: 'My education',
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A assumenda dolore ea, nostrum rerum officia!",
+  description: "The following are the educations and trainings I have completed:",
   items: [
     {
-      institution: "Azaz Secondary School",
+      institution: "Samata Shikshya Niketan",
       degree: "SEE",
-      duration: "2020-2022",
+      duration: "2016",
     },
     {
-      institution: "Azaz College",
+      institution: "Adarsha Saula Yubak",
       degree: "+2",
-      duration: "2020-2022",
+      duration: "2017-2019",
+    },
+    {
+      institution: "",
+      degree: "OFFICE PACKAGE",
+      duration: "2020-2021",
+    },
+    {
+      institution: "",
+      degree: "ADVANCED CHIP LEVEL TRAINING OF DESKTOP, LAPTOP & MOBILE",
+      duration: "2021-2022",
     },
     {
       institution: "Kumari Jobs",
@@ -75,7 +90,7 @@ const education = {
 
 const skills = {
   title: "My skills",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A assumenda dolore ea, nostrum rerum officia!",
+  description: "As a skilled digital marketer, I specialize in driving online growth through strategic SEO, engaging content creation, paid advertising, and data-driven social media campaigns.",
   skillList: [
     {
       icon: <FaGoogle />,

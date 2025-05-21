@@ -14,13 +14,14 @@ const Home = () => {
           <h1 className="h1 mb-6">Hello I'm <br /> <span className="text-cyan-400">Shirish Shrestha</span>
           </h1>
           <p className="max-w-[500px] mb-9 text-white/80">
-            I excel at crafting compelling digital strategies that drive engagement and growth, 
-            with proficiency across various marketing platforms and tools. </p>
+            Self motivated individual, passionate about learning and eager to tackle new challenges in the tech world. Committed on growing both technically and personally, with a focus on building confidence and enjoying the process of learning and discovery. Looking forward to contributing to meaningful projects while continuously improving and making a positive impact.</p>
             <div className="flex flex-col xl:flex-row items-center gap-8">
+              <a href="/cvSeeres.pdf" download>
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
                 <span>Download CV</span>
                 <FiDownload className="text-xl"/>
               </Button>
+              </a>
               <div className="mb-8 xl:mb-0"><Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-cyan-500 rounded-full flex justify-center items-center text-cyan-400 text-base hover:bg-cyan-500 hover:text-primary hover:transition-all duration-500"/></div>
             </div>
         </div>

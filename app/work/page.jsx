@@ -13,12 +13,12 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: '01',
-    category: 'web development',
+    category: 'Digital Marketing',
     title: 'project 1',
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem eius libero nesciunt repellendus, a fuga?",
-    stack: [{ name: "Html"}, {name:"Css"},{name:"Word Press"} ],
-    image:'/assets/work/thumb1.png',
-    live:"/work",
+    description: "I offer digital marketing services including SEO, social media management, and online advertising to help businesses grow their online presence.",
+    stack: [{ name: "Advertisement"}, {name:"Social Media Marketing"},{name:"Word Press"},{name:"Design & Content Creation"} ],
+    image:'/assets/work/digital.jpg',
+    live:"mailto:Itsseeres@gmail.com",
     github:"/work",
   }
 ]

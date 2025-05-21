@@ -1,10 +1,10 @@
 import Link from "next/link"
-import {FaFacebook, FaInstagram, FaYoutube, FaTwitter} from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaYoutube, FaWhatsapp} from 'react-icons/fa'
 const socials = [
-  {icon: <FaFacebook/>, path:''},
-  {icon: <FaInstagram/>, path:''},
+  {icon: <FaFacebook/>, path:'https://www.facebook.com/itsseeres'},
+  {icon: <FaInstagram/>, path:'https://www.instagram.com/seeres_ay?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='},
   {icon: <FaYoutube/>, path:''},
-  {icon: <FaTwitter/>, path:''},
+  {icon: <FaWhatsapp/>, path:'https://wa.me/qr/FMFMCO5THAB3H1'},
 ]
 const Social = ({containerStyles, iconStyles}) => {
   return (
