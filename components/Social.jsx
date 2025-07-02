@@ -4,7 +4,7 @@ const socials = [
   {icon: <FaFacebook/>, path:'https://www.facebook.com/itsseeres'},
   {icon: <FaInstagram/>, path:'https://www.instagram.com/seeres_ay?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='},
   {icon: <FaYoutube/>, path:''},
-  {icon: <FaWhatsapp/>, path:'https://wa.me/qr/FMFMCO5THAB3H1'},
+  {icon: <FaWhatsapp/>, path:'https://wa.me/9779818763764'},
 ]
 const Social = ({containerStyles, iconStyles}) => {
   return (

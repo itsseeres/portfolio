@@ -18,7 +18,7 @@ const projects = [
     description: "I offer digital marketing services including SEO, social media management, and online advertising to help businesses grow their online presence.",
     stack: [{ name: "Advertisement" }, { name: "Social Media Marketing" }, { name: "Word Press" }, { name: "Design & Content Creation" }],
     image: '/assets/work/digital.jpg',
-    live: "mailto:Itsseeres@gmail.com",
+    live: "mailto:itsseeres@gmail.com",
     github: "/work",
   }
 ]

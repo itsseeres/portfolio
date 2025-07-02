@@ -71,7 +71,7 @@ const Contact = () => {
                 </SelectContent>
               </Select>
               <Textarea placeholder="Write your message..." className="h-[200px]" />
-              <Link href="mailto:Itsseeres@gmail.com">
+              <Link href="mailto:itsseeres@gmail.com">
               <Button size="md" className="max-w-40" type="submit">Send Message</Button>
               </Link>
             </form>
